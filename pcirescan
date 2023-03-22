@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+# Simple as can be PCI-e rescan utility
+# License: MIT
+# Author: Ivan Fedorov <inbox@titaniumhocker.ru>
+
+echo 1 > /sys/bus/pci/rescan
